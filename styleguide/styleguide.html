@@ -2,9 +2,396 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Styleguide</title>
+    <link rel="stylesheet" href="src/scss/style.css">
   </head>
   <body>
+    <header class="full-vert">
+  		<nav class="">
+        <div class="logo">
+          <img src="img/logo.png" alt="">
+        </div>
+  			<ul>
+  				<li><a href="#logo">Logo</a></li>
+  				<li><a href="#farver">Farver</a></li>
+  				<li><a href="#icons">Ikoner</a></li>
+  				<li><a href="#typography">Typografi</a></li>
+  				<li><a href="#btns">Knapper</a></li>
+  			</ul>
+  		</nav>
+  	</header>
 
+  <!-- Logo section star-->
+  	<section id="logo"> <br>
+  		<article class="logo flex">
+
+  			<aside>
+  				<h2>Logo</h2>
+  				<hr>
+  				<img src="img/NORQiLogo.jpg" alt="NORQi's logo, en grøn cirkel med hvid tekst" class="logo-img"> <br>
+  			</aside>
+
+  			<aside>
+  				<h2>HTML</h2>
+  				<hr>
+  				<p class="code">
+  					<code class="center flex">
+  						<br>
+  						&#x3C;img src="img/NORQiLogo.jpg" alt="NORQi's logo, en grøn cirkel med hvid tekst" class=&#x22;logo-img&#x22;&#x3E;<br>
+  						&#x9;<br>
+  					  &#x9;
+  					</code>
+  				</p>
+  			</aside>
+
+  		<aside>
+  			<h2>CSS</h2>
+  			<hr>
+  			<p class="code">
+  				<code class="center flex">
+  					.logo-img{<br>
+  						display: block;<br>
+  						height: 100px; <br>
+  					}
+  				</code>
+
+
+  		</aside>
+  		</article>
+  		<footer>
+  			<p>
+  				Sådan skal det bruges: Skal placeres i den venstre hjørne på headeren og footeren
+  			</p>
+
+  		</footer>
+  	</section>
+  <!--Logo section slut-->
+
+  <!-- Farve section start-->
+  	<section id="farver"> <br>
+  		<article class="farver flex">
+
+  			<aside>
+  				<h2>Farver</h2>
+  				<hr>
+  				<div class="farve1"></div>
+  				<div class="farve2"></div>
+  				<div class="farve3"></div>
+  				<div class="farve4"></div>
+  			</aside>
+
+  			<aside>
+  				<h2>HTML</h2>
+  				<hr>
+  				<p class="code">
+  					<code class="vcenter flex">
+
+  					</code>
+
+  					<p class="code">
+  						<code class="vcenter flex">
+
+  					</code>
+
+  					<p class="code">
+  						<code class="vcenter flex">
+
+  						</code>
+
+  			</aside>
+
+  			<aside>
+  				<h2>CSS</h2>
+  				<hr>
+  				<p class="code">
+  					<code class="vcenter flex">
+  						background-color: #00B800; <br><br>
+  						background-color: rgb(0, 184, 0);
+  					</code>
+
+  				<p class="code">
+  					<code class="vcenter flex">
+  						background-color: #fff; <br><br>
+  						background-color: rgb(225, 225, 225);
+  					</code>
+
+  				<p class="code">
+  					<code class="vcenter flex">
+  						background-color: #313331; <br><br>
+  						background-color: rgb(49, 51, 49);
+  					</code>
+
+  			</aside>
+  		</article>
+  		<footer>
+  			<p>
+  				Sådan skal de bruges: Farverne skal bruges som tekstfarver, knapfarver, baggrundsfarver o.s.v
+  			</p>
+
+  		</footer>
+  	</section>
+  <!-- Farve section slut-->
+
+  <!--Icon section start-->
+    <section id="icons"> <br>
+      <article class="ikoner flex">
+
+        <aside>
+          <h2>Ikoner</h2>
+            <hr>
+          <i id="fb-icon" class="fab fa-facebook-square icon"></i><br>
+          <i id="mail-icon" class="fas fa-envelope-square icon"></i><br>
+          <i id="linkedIn-icon" class="fab fa-linkedin icon"></i><br>
+          <i id="link-icon" class="fas fa-link icon"></i>
+          </aside>
+
+  <!-- Icon code snippet start-->
+          <aside>
+            <h2>HTML</h2>
+            <hr>
+            <!-- Facebook-->
+            <p class="code">
+              <code class="center flex">
+                &#x3C;i class=&#x22;fab fa-facebook-square&#x22;&#x3E;&#x3C;/i&#x3E;<br>
+              </code>
+
+            <!--Mail-->
+            <p class="code">
+              <code class="center flex">
+                &#x3C;i class=&#x22;fas fa-envelope-square&#x22;&#x3E;&#x3C;/i&#x3E;
+              </code>
+
+            <!--LinedIn-->
+            <p class="code">
+              <code class="center flex">
+                &#x3C;i class=&#x22;fas fa-link&#x22;&#x3E;&#x3C;/i&#x3E;
+              </code>
+
+            <!--Link-->
+            <p class="code">
+              <code class="center flex">
+                &#x3C;i class=&#x22;fas fa-link&#x22;&#x3E;&#x3C;/i&#x3E;
+              </code>
+            </aside>
+
+            <aside>
+              <h2>CSS</h2>
+              <hr>
+              <!--Facebook-->
+              <p class="code">
+                <code class="center flex">
+                    <br><br><br><br><br><br><br>
+                    .icon{<br>
+                      font-size: 65px;<br>
+                      height: 65px;<br>
+                      width: 65px;<br>
+                      margin-bottom: 20px;<br>
+                    }<br>
+                    <br>
+                    #fb-icon{<br>
+                      color: #0c6ee6;<br>
+                    }
+                </code>
+
+                <!--Email-->
+                <p class="code">
+                  <code class="center flex">
+                    #mail-icon{<br>
+                      color: #1c8bf2;<br>
+                    }<br>
+                  </code>
+                <!--LinkedIn-->
+                  <p class="code">
+                    <code class="center flex">
+                      #linkedIn-icon{<br>
+                        color: #4376b1;<br>
+                      }<br>
+                    </code>
+
+                  <!--Link-->
+                    <p class="code">
+                      <code class="center flex">
+                        #link-icon{<br>
+                        	color: #152238;<br>
+                        }<br>
+                      </code>
+
+            </aside>
+
+        </article>
+  <!--Icon code snippet slut-->
+      <footer>
+        <p>
+          <b>Sådan skal det bruges:</b> Ikonerne skal bruges når man trykker på del. Her vil ikoner poppe op, hvor man så kan vælge, hvordan man vil dele siden.
+
+        </p>
+      </footer>
+    </section>
+  <!--Icon section slut-->
+
+  <!-- Typografi section start-->
+  	<section id="typography"> <br>
+  		<article class="typo flex">
+
+  			<aside>
+  				<h2>Typography</h2>
+  				<hr>
+  				<h1 class="overskrift">Headline</h1>
+  				<h2 class="underoverskrift">Headline 2</h2>
+  				<p class="brød">Brødtekst</p>
+  			</aside>
+
+  			<aside>
+  				<h2>HTML</h2>
+  				<hr>
+  				<p class="code">
+  					<code class="center flex">
+  						&#x3C;h1&#x3E;&#x3C;/h1&#x3E;
+  					</code>
+  				</p>
+
+  				<p class="code">
+  					<code class="center flex">
+  						&#x3C;h2&#x3E;&#x3C;/h2&#x3E;
+  					</code>
+  				</p>
+
+  				<p class="code">
+  					<code class="center flex">
+  						&#x3C;p&#x3E;&#x3C;/p&#x3E;
+  					</code>
+  				</p>
+
+  			</aside>
+
+  			<aside>
+  				<h2>CSS</h2>
+  				<hr>
+
+  <!--H1-->
+  				<p class="code">
+  					<code class="center flex">
+  						&#x9;font-size: 47px;<br>
+  						&#x9;font-family: "Roboto Condensed";<br>
+  						&#x9;font-weight: bold;<br>
+  						&#x9;color: #000e05;
+  					</code>
+  				</p>
+
+  <!--H2-->
+  				<p class="code">
+  					<code class="center flex">
+  						&#x9;font-size: 30px;<br>
+  						&#x9;font-family: "Roboto Condensed";<br>
+  						&#x9;font-weight: bold;<br>
+  						&#x9;color: #000e05;
+  					</code>
+  				</p>
+
+  <!--Brødtekst-->
+  				<p class="code">
+  					<code class="center flex">
+  						&#x9;font-size: 16px;<br>
+  						&#x9;font-family: "Quicksand";<br>
+  						&#x9;color: #000e05;<br>
+  					</code>
+  				</p>
+
+  			</aside>
+  		</article>
+  		<footer>
+  			<p>
+  				Sådan skal det bruges: Headline bliver brugt den overordnet hjemmeside.
+  				<br> Headline 2 bliver brugt til segment baseret
+  				<br>Brødtekst bliver brug til alt fyld tekst på siden som der skal informatere læseren.
+  			</p>
+
+  		</footer>
+  	</section>
+  <!-- Typografi section slut-->
+
+  <!-- Btn section start-->
+  	<section id="btns"> <br>
+  		<article class="knapper flex">
+
+  			<aside>
+  				<h2>Knapper</h2>
+  				<hr>
+  				<button class="btn" name="Share">SHARE</button> <br>
+  				<i id="pilleft"class="fas fa-chevron-left"></i><br>
+  				<i id="pilright"class="fas fa-chevron-right"></i>
+  			</aside>
+
+  			<aside>
+  				<h2>HTML</h2>
+  				<hr>
+  <!--Del knap-->
+  				<p class="code">
+  					<code class="center flex">
+  						&#x3C;button class=&#x22;btn&#x22; name=&#x22;SHARE&#x22;&#x3E;Share&#x3C;/button&#x3E;
+  					</code>
+  				</p>
+
+  <!-- Venstre pilhoved-->
+  				<p class="code">
+  					<code class="center flex">
+  						&#x3C;i id=&#x22;pilleft&#x22; class=&#x22;fas fa-chevron-left&#x22;&#x3E;&#x3C;/i&#x3E;
+  					</code>
+  				</p>
+
+  <!-- Højre pilhoved-->
+  				<p class="code">
+  					<code class="center flex">
+  						&#x3C;i id=&#x22;pilright&#x22; class=&#x22;fas fa-chevron-right&#x22;&#x3E;&#x3C;/i&#x3E;
+  					</code>
+  				</p>
+  			</aside>
+
+  			<aside>
+  				<h2>CSS</h2>
+  				<hr>
+
+  <!-- Del knap-->
+  				<p class="code">
+  					<code class="center flex">
+  						<br><br><br><br><br><br><br>
+  						.btn{ <br>
+  						  color: #fff;<br>
+  						  font-family: "roboto condenced";<br>
+  						  font-size: 26px;<br>
+  						  background-color: #14b555;<br>
+  						  height: 70px;<br>
+  						  width: 130px;<br>
+  						  border-radius: 30px;<br>
+  						  border: 0px;<br>
+  							margin-bottom: 20px;<br>
+  						}<br>
+  					</code>
+
+  <!-- Venste pilhovede-->
+  				<p class="code">
+  					<code class="center flex">
+  						#pilleft{<br>
+  						  font-size: 70px;<br>
+  							margin-bottom: 20px;<br>
+  						}
+  					</code>
+  <!--Højre pilhoved-->
+  				<p class="code">
+  					<code class="center flex">
+  						#pilright{<br>
+  						  font-size: 70px;<br>
+  						}
+  						</code>
+  			</aside>
+  		</article>
+  		<footer>
+  			<p>
+  				Sådan skal det bruges:Knapperne skal bruges som share knapper for at dele siden. I pilehoveder skal bruges til at skifte billede i vores billedegalleri.
+  			</p>
+
+  		</footer>
+  	</section>
+  <!-- Btn section slut-->
   </body>
 </html>
