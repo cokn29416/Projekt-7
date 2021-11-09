@@ -136,6 +136,7 @@ footer{
 	border-radius: 5px;
 	padding: 10px 20px;
 	width: 600px;
+	margin-bottom: 100px;
 }
 
 .code{
@@ -198,7 +199,17 @@ footer{
 }
 /*Farver slut*/
 
+/*typography start*/
+#typography{
+	margin-top: -700px;
+}
+/*typography slut*/
+
 /*Icon start*/
+#icons{
+	margin-top: 1000px;
+	margin-left: -1090px;
+}
 .icon{
   font-size: 65px;
   height: 65px;
@@ -210,37 +221,12 @@ footer{
   color: #0c6ee6;
 }
 
-#mail-icon{
-  color: #1c8bf2;
+#ig-icon{
+  margin-bottom: -80px;
+	margin-left: -2px;
 }
 
-#linkedIn-icon{
-  color: #4376b1;
-}
 /*Icon slut*/
-
-/* Knap start*/
-.btn{
-  color: #fff;
-  font-family: "roboto condenced";
-  font-size: 26px;
-  background-color: #00B800;;
-  height: 70px;
-  width: 130px;
-  border-radius: 30px;
-  border: 0px;
-	margin-bottom: 20px;
-}
-
-#pilleft{
-  font-size: 70px;
-	margin-bottom: 20px;
-}
-
-#pilright{
-  font-size: 70px;
-}
-/*Knap slut*/
 
 .flex{
 	display: flex;
