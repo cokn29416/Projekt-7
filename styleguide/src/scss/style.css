@@ -1,3 +1,206 @@
-*,* *{font-family:Verdana,sans-serif;-webkit-box-sizing:border-box;box-sizing:border-box;padding:0;margin:0}html,body{height:100%;margin:auto;scroll-behavior:smooth}header{position:relative;z-index:1}body{max-width:1100px;height:100%;background-color:#dce3dd}.full-width{width:100%}.full-height{height:100%}.overskrift{font-size:47px;font-family:Verdana,sans-serif;font-weight:bold;color:#000e05}.underoverskrift{font-size:30px;font-family:Verdana,sans-serif;font-weight:bold;color:#000e05}.brød{font-size:16px;font-family:Verdana,sans-serif;color:#000e05}.logo{margin-left:10px}nav{top:0;left:0;position:fixed;width:100%;height:75px;background-color:#527656}ul{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-top:-50px;margin-right:120px;position:relative;list-style-type:none}li a{text-transform:uppercase;text-decoration:none;font-family:Verdana,sans-serif;padding:10px 20px;color:#fff;font-size:18px}section{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;min-height:100%;width:100%;z-index:-1;padding-top:100px}article{font-family:Verdana,sans-serif;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;width:100%}aside{width:400px;margin-left:50px;margin-right:20px}h2{font-family:Verdana,sans-serif;font-size:28px;margin-bottom:20px;font-weight:600;width:300px}hr{height:2px;margin-top:-10px;margin-bottom:20px}footer{font-family:Verdana,sans-serif;text-align:center;margin-top:100px;background-color:#eee;border-radius:5px;padding:10px 20px;width:600px;margin-bottom:100px}.code{display:-webkit-box;display:-ms-flexbox;display:flex;width:400px;background-color:#eee;height:100px;border-radius:4px;padding:10px 20px;margin-bottom:20px;overflow:scroll}.logo-img{display:block;height:100px}.logo-img-text{display:block;height:70px;background-image:url(../img/logo-med-text.png);background-repeat:no-repeat}.farve1{height:100px;width:400px;margin-bottom:20px;border-radius:4px;background-color:#527656}.farve2{height:100px;width:400px;margin-bottom:20px;border-radius:4px;background:#45809c}.farve3{height:100px;width:400px;margin-bottom:20px;border-radius:4px;border:solid #CDCDCD;background:#fff}.farve4{height:100px;width:400px;margin-bottom:20px;border-radius:4px;background:#000}#typography{margin-top:-700px}#icons{margin-top:1000px;margin-left:-1090px}.icon{font-size:65px;height:65px;width:65px;margin-bottom:20px}#fb-icon{color:#0c6ee6}#ig-icon{margin-bottom:-80px;margin-left:-2px}.flex{display:-webkit-box;display:-ms-flexbox;display:flex}.center{-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.hcenter{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.vcenter{-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+@charset "UTF-8";
+*, * * {
+  font-family: Verdana, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+html, body {
+  height: 100%;
+  margin: auto;
+  scroll-behavior: smooth; }
+
+header {
+  position: relative;
+  z-index: 1; }
+
+body {
+  max-width: 1100px;
+  height: 100%;
+  background-color: #dce3dd; }
+
+.full-width {
+  width: 100%; }
+
+.full-height {
+  height: 100%; }
+
+.overskrift {
+  font-size: 47px;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  color: #000e05; }
+
+.underoverskrift {
+  font-size: 30px;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  color: #000e05; }
+
+.brød {
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  color: #000e05; }
+
+.logo {
+  margin-left: 10px; }
+
+nav {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  background-color: #527656; }
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: -50px;
+  margin-right: 120px;
+  position: relative;
+  list-style-type: none; }
+
+li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Verdana, sans-serif;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 18px; }
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+  z-index: -1;
+  padding-top: 100px; }
+
+article {
+  font-family: Verdana, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  width: 100%; }
+
+aside {
+  width: 400px;
+  margin-left: 50px;
+  margin-right: 20px; }
+
+h2 {
+  font-family: Verdana, sans-serif;
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  width: 300px; }
+
+hr {
+  height: 2px;
+  margin-top: -10px;
+  margin-bottom: 20px; }
+
+footer {
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 600px;
+  margin-bottom: 100px; }
+
+.code {
+  display: flex;
+  width: 400px;
+  background-color: #eee;
+  height: 100px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  overflow: scroll; }
+
+/*Logo start*/
+.logo-img {
+  display: block;
+  height: 100px; }
+
+.logo-img-text {
+  display: block;
+  height: 70px;
+  background-image: url(../img/logo-med-text.png);
+  background-repeat: no-repeat; }
+
+/*Logo slut*/
+/*Farver start*/
+.farve1 {
+  height: 100px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  background-color: #527656; }
+
+.farve2 {
+  height: 100px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  background: #45809c; }
+
+.farve3 {
+  height: 100px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: solid #CDCDCD;
+  background: #fff; }
+
+.farve4 {
+  height: 100px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  background: #000; }
+
+/*Farver slut*/
+/*typography start*/
+#typography {
+  margin-top: -700px; }
+
+/*typography slut*/
+/*Icon start*/
+#icons {
+  margin-top: 1000px;
+  margin-left: -1090px; }
+
+.icon {
+  font-size: 65px;
+  height: 65px;
+  width: 65px;
+  margin-bottom: 20px; }
+
+#fb-icon {
+  color: #0c6ee6; }
+
+#ig-icon {
+  margin-bottom: -80px;
+  margin-left: -2px; }
+
+/*Icon slut*/
+.flex {
+  display: flex; }
+
+.center {
+  align-items: center;
+  justify-content: center; }
+
+.hcenter {
+  justify-content: center; }
+
+.vcenter {
+  align-items: center; }
 
 /*# sourceMappingURL=style.css.map */
