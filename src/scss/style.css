@@ -9,7 +9,8 @@ header {
 
 body {
   background: #dce3dd;
-  font-family: Verdana, sans-serif; }
+  font-family: Verdana, sans-serif;
+  scroll-behavior: smooth; }
 
 nav {
   background-color: #527656;
@@ -41,11 +42,14 @@ nav {
   nav .nav-menu .closeMenu, nav .fa-facebook, nav .fa-instagram, nav i {
     font-size: 2rem;
     display: none;
-    cursor: pointer; }
+    cursor: pointer;
+    color: #fff; }
   nav .fa-facebook:hover {
     color: #4267B2; }
   nav .fa-instagram:hover {
     color: #cd486b; }
+  nav .link {
+    text-decoration: none; }
 
 @media (max-width: 768px) {
   nav .nav-menu {
@@ -74,14 +78,62 @@ nav {
   nav .fa-facebook {
     display: block;
     padding: 12px;
-    margin-right: 100px;
+    margin-left: -40px;
     margin-top: 50px;
     font-size: 3rem; }
   nav .fa-instagram {
     display: block;
     padding: 12px;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: -70px;
     font-size: 3rem; } }
+footer {
+  display: flex;
+  min-height: 350px;
+  background-color: #527656;
+  margin-top: 600px; }
+  footer aside {
+    width: 400px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: -30px; }
+  footer h2 {
+    color: #fff;
+    margin-top: 100px;
+    font-family: Verdana, sans-serif;
+    text-align: center; }
+  footer p {
+    font-family: Verdana, sans-serif;
+    color: #fff;
+    text-align: center; }
+  footer .follow {
+    margin-top: 30px; }
+  footer .media {
+    width: 400px;
+    margin-left: 140px;
+    margin-top: 10px; }
+  footer .fb {
+    height: 52px;
+    width: 65px; }
+  footer .ig {
+    height: 55px;
+    width: 55px; }
+  footer .media:hover {
+    cursor: pointer; }
+
+@media (max-width: 768px) {
+  footer aside {
+    width: 380px;
+    margin-left: 10px;
+    margin-top: -30px; }
+  footer .open {
+    margin-left: -60px; }
+  footer .info {
+    margin-left: -100px; }
+  footer .contact {
+    margin-top: 250px;
+    margin-left: -550px; }
+  footer .media {
+    margin-left: 130px; } }
 
 /*# sourceMappingURL=style.css.map */
