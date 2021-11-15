@@ -203,12 +203,14 @@ footer {
   width: 65px;
   margin-bottom: 20px; }
 
-#fb-icon {
-  color: #0c6ee6; }
+.fa-facebook {
+  font-size: 2rem;
+  color: black; }
 
-#ig-icon {
-  margin-bottom: -80px;
-  margin-left: -2px; }
+.fa-instagram {
+  font-size: 2rem;
+  color: black;
+  margin-top: 100px; }
 
 /*Icon slut*/
 .flex {

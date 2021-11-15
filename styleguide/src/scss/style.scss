@@ -1,6 +1,6 @@
 $primary-color: #527656;
 $secondary-color: #dce3dd;
-$nav-font-color: #fff;
+$font-color: #fff;
 $font-stack: Verdana, sans-serif;
 
 *, * * {
@@ -85,7 +85,7 @@ li{
   	text-decoration: none;
   	font-family: $font-stack;
   	padding: 10px 20px;
-  	color: $nav-font-color;
+  	color: $font-color;
   	font-size: 18px;
   }
 }
@@ -210,6 +210,7 @@ footer{
 	margin-top: 1000px;
 	margin-left: -1090px;
 }
+
 .icon{
   font-size: 65px;
   height: 65px;
@@ -217,13 +218,15 @@ footer{
   margin-bottom: 20px;
 }
 
-#fb-icon{
-  color: #0c6ee6;
+.fa-facebook{
+	font-size: 2rem;
+	color: black;
 }
 
-#ig-icon{
-  margin-bottom: -80px;
-	margin-left: -2px;
+.fa-instagram{
+	font-size: 2rem;
+	color: black;
+	margin-top: 100px;
 }
 
 /*Icon slut*/
