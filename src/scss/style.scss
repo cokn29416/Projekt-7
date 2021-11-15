@@ -131,6 +131,10 @@ nav{
 //Responsiv header slut//
 
 
+
+
+
+
 //Footer start//
 footer{
   display: flex;
@@ -168,18 +172,27 @@ footer{
     margin-top: 10px;
   }
 
-  .fb{
-    height: 52px;
-    width: 65px;
-  }
-
-  .ig{
-      height: 55px;
-      width: 55px;
-  }
-
   .media:hover{
     cursor: pointer;
+  }
+
+  .media i{
+    color: $font-color;
+    font-size: 2rem;
+    text-decoration: none;
+    margin-left: 18px;
+
+    .link{
+      text-decoration: none;
+    }
+
+    .fa-facebook:hover{
+      color: #4267B2;
+    }
+
+    .fa-instagram:hover{
+      color: #cd486b;
+    }
   }
 }
 

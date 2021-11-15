@@ -1,7 +1,8 @@
 @charset "UTF-8";
 *, * * {
   font-family: Verdana, sans-serif;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0;
   margin: 0; }
 
@@ -54,9 +55,15 @@ nav {
   background-color: #527656; }
 
 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: -50px;
   margin-right: 120px;
   position: relative;
@@ -71,10 +78,19 @@ li a {
   font-size: 18px; }
 
 section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   min-height: 100%;
   width: 100%;
   z-index: -1;
@@ -82,8 +98,11 @@ section {
 
 article {
   font-family: Verdana, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 100%; }
 
 aside {
@@ -114,6 +133,8 @@ footer {
   margin-bottom: 100px; }
 
 .code {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 400px;
   background-color: #eee;
@@ -191,16 +212,26 @@ footer {
 
 /*Icon slut*/
 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
 
 .center {
-  align-items: center;
-  justify-content: center; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .hcenter {
-  justify-content: center; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .vcenter {
-  align-items: center; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 /*# sourceMappingURL=style.css.map */
