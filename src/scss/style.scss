@@ -178,7 +178,7 @@ footer{
 
   aside{
   	width: 400px;
-  	margin-left: 8%;
+  	margin-left: 9%;
   	margin-right: 20px;
     margin-top: -30px;
   }
@@ -231,30 +231,32 @@ footer{
 }
 
 //Respinsiv footer//
+@media(max-width:1600px){
+  footer{
+    aside{
+      width: 400px;
+      margin-left: 3%;
+      margin-right: 20px;
+      margin-top: -30px;
+    }
+  }
+}
 
 @media(max-width: 768px){
   footer{
     aside{
-      width: 380px;
-      margin-right: 300px;
+      margin-right: 30%;
       margin-top: -30px;
-    }
-
-    .open{
-      margin-left: -60px;
-    }
-
-    .info{
-
     }
 
     .contact{
       margin-top: 400px;
-      margin-left: -670px;
+      margin-left: -780px;
     }
 
     .media{
-      margin-left: 275px;
+      margin-left: 330px;
+      margin-bottom: 50px;
     }
   }
 }
