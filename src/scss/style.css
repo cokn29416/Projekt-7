@@ -130,7 +130,7 @@ footer {
   margin-top: 100px; }
   footer aside {
     width: 400px;
-    margin-left: 9%;
+    margin-left: 8%;
     margin-right: 20px;
     margin-top: -30px; }
   footer h2 {
@@ -162,24 +162,17 @@ footer {
     footer .media i .fa-instagram:hover {
       color: #cd486b; }
 
-@media (max-width: 1610) {
-  footer aside {
-    width: 400px;
-    margin-right: 5%;
-    margin-top: -30px; } }
 @media (max-width: 768px) {
   footer aside {
     width: 380px;
-    margin-left: 10px;
+    margin-right: 300px;
     margin-top: -30px; }
   footer .open {
     margin-left: -60px; }
-  footer .info {
-    margin-left: -100px; }
   footer .contact {
-    margin-top: 250px;
-    margin-left: -550px; }
+    margin-top: 400px;
+    margin-left: -670px; }
   footer .media {
-    margin-left: 130px; } }
+    margin-left: 275px; } }
 
 /*# sourceMappingURL=style.css.map */
