@@ -130,13 +130,46 @@ nav{
 }
 //Responsiv header slut//
 
+//Velkommen start//
+#welcome{
+  margin-left: 70px;
+  margin-top: 50px;
+
+  h1{
+    font-size: 30px;
+  }
+
+  p{
+    margin-top: 5px;
+    line-height: 22px;
+  }
+}
+
+//Velkommen slut//
+
+//Om start//
+#about{
+  margin-left: 70px;
+  margin-top: 50px;
+
+  h2{
+    font-size: 25px;
+  }
+
+  li{
+    margin-top: 5px;
+    line-height: 25px;
+    margin-left: 20px;
+  }
+}
+//Om slut//
 
 //Footer start//
 footer{
   display: flex;
   min-height: 350px;
   background-color:$primary-color;
-  margin-top: 600px;
+  margin-top: 100px;
 
   aside{
   	width: 400px;
@@ -168,46 +201,54 @@ footer{
     margin-top: 10px;
   }
 
-  .fb{
-    height: 52px;
-    width: 65px;
-  }
-
-  .ig{
-      height: 55px;
-      width: 55px;
-  }
-
   .media:hover{
     cursor: pointer;
   }
+
+  .media i{
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+    margin-left: 18px;
+  }
+
+    .link1{
+      text-decoration: none;
+    }
+
+    .fa-facebook:hover{
+      color: #4267B2;
+    }
+
+    .fa-instagram:hover{
+      color: #cd486b;
+  }
 }
 
-//Responsiv Footer start//
+/*Responsiv footer start*/
+@media(max-width:1600px){
+  footer aside{
+    width: 400px;
+    margin-left: 2.5%;
+    margin-right: 20px;
+    margin-top: -30px;
+  }
+}
+
 @media(max-width: 768px){
-  footer{
-    aside{
-      width: 380px;
-      margin-left: 10px;
+  footer aside{
+      margin-right: 30%;
       margin-top: -30px;
     }
 
-    .open{
-      margin-left: -60px;
+  footer .contact{
+      margin-top: 400px;
+      margin-left: -780px;
     }
 
-    .info{
-      margin-left: -100px;
-    }
-
-    .contact{
-      margin-top: 250px;
-      margin-left: -550px;
-    }
-
-    .media{
-      margin-left: 130px;
-    }
+  footer .media{
+      margin-left: 330px;
+      margin-bottom: 50px;
   }
 }
-//Responsiv footer slut//
+/*Responsiv footer slut*/
