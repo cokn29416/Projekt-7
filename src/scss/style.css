@@ -23,7 +23,7 @@ nav {
       -ms-flex-pack: justify;
           justify-content: space-between; }
   nav .logo {
-    margin-left: 15px; }
+    margin-left: 60px; }
   nav .nav-menu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -31,13 +31,13 @@ nav {
     list-style-type: none; }
   nav li a {
     display: inline-block;
-    padding: 15px;
+    padding: 10px;
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
     font-size: 22px;
     margin-top: 10px;
-    margin-right: 30px;
+    margin-right: 60px;
     letter-spacing: 2px; }
   nav a:hover {
     border-bottom: 1px solid white; }
@@ -113,7 +113,7 @@ nav {
 
 #about {
   margin-left: 70px;
-  margin-top: 50px; }
+  margin-top: -310px; }
   #about h2 {
     font-size: 25px; }
   #about li {
@@ -121,13 +121,19 @@ nav {
     line-height: 25px;
     margin-left: 20px; }
 
+iframe {
+  width: 560px;
+  height: 315px;
+  margin-bottom: 30px;
+  margin-left: 800px; }
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   min-height: 350px;
   background-color: #527656;
-  margin-top: 100px; }
+  margin-top: 75px; }
   footer aside {
     width: 400px;
     margin-left: 50px;
