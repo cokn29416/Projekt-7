@@ -149,7 +149,7 @@ nav{
 //Om start//
 #about{
   margin-left: 70px;
-  margin-top: -310px;
+  margin-top: 10px;
 
   h2{
     font-size: 25px;
@@ -167,9 +167,37 @@ nav{
 iframe{
   width: 560px;
   height: 315px;
-  margin-bottom: 30px;
+  margin-top: -400px;
   margin-left: 800px;
 }
+
+@media(max-width:1337px){
+  iframe{
+    margin-left: 60px;
+    margin-top: 30px;
+  }
+}
+
+@media(max-width: 768px){
+  nav .logo{
+    margin-left: 20px;
+  }
+  #welcome{
+    margin-left: 20px;
+  }
+
+  #about{
+    margin-left: 20px;
+  }
+
+  iframe{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 460px;
+    height: 315px;
+  }
+}
+
 //Video slut//
 //Footer start//
 footer{
